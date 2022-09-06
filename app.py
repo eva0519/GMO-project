@@ -13,7 +13,7 @@ from bson.objectid import ObjectId
 from pymongo import MongoClient
 from werkzeug.utils import secure_filename
 
-client = MongoClient('mongodb+srv://gmo:gmo@gmo.fmwwa2z.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('')
 db = client.dbgmo
 
 app = Flask(__name__)
